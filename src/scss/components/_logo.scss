@@ -1,0 +1,23 @@
+.head {
+    stroke-dasharray: 272.321;
+    stroke-dashoffset: 272.321;
+    animation: head 1.2s ease-out forwards;
+}
+
+.hat {
+    stroke-dasharray: 267.567;
+    stroke-dashoffset: 267.567;
+    animation: hat 1.2s ease-out forwards;
+}
+
+@keyframes hat {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes head {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
