@@ -1,6 +1,6 @@
-# Holly
+# muenster.io Landing Page
 
-A landing page template.
+Landing page for muenster.io using the Molly template.
 
 * [Getting started](#getting-started)
 

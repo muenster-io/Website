@@ -1,7 +1,7 @@
 {
-  "name": "Holly",
+  "name": "Website",
   "version": "1.0.0",
-  "description": "Holly Template",
+  "description": "muenster.io Website by Holly Template",
   "author": "Pasquale Vitiello <pasqualevitiello@gmail.com>",
   "license": "GPLv3",
   "repository": {
@@ -49,6 +49,6 @@
     "stylelint": "^9.4.0",
     "uglify-es": "^3.3.10"
   },
-  "homepage": "https://bitbucket.org/pasqualevitiello/Holly#readme",
+  "homepage": "https://muenster.io",
   "main": ".eslintrc.js"
 }

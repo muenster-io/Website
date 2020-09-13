@@ -24,6 +24,20 @@
     margin: 0 auto;
 }
 
+.hero-info {
+    margin-top: 42px;
+    padding: get-content-padding(mobile);
+    background-color: color(bg, 2);
+    border-color: color(bg, 3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+
+    @include media( '>small' ) {
+		padding: get-content-padding(desktop);
+	}
+}
+
 .hero-illustration {
     position: relative;
     padding-top: 20px;
@@ -50,7 +64,7 @@
 .hero-illustration-browser {
     position: relative; /* To display all elements above the background color */
 
-    svg {
+    img,svg {
         width: 600px;
         height: auto;
         margin-left: auto;
@@ -70,7 +84,7 @@
 
     .hero-illustration-browser {
 
-        svg {
+        img,svg {
             width: 640px;
         }
     }
@@ -117,7 +131,7 @@
 
     .hero-illustration-browser {
 
-        svg {
+        img,svg {
             width: 600px;
         }
     }
