@@ -71,6 +71,16 @@
     }
 }
 
+@include media( '<medium' ) {
+
+    .hero-illustration {
+
+        &::before {
+            background: mix(color(primary, 3), color(primary, 1));
+        }
+    }
+}
+
 @include media( '>medium' ) {
 
     .hero-paragraph {
