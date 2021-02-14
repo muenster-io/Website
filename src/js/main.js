@@ -39,4 +39,13 @@
       interval: 150
     })
   }
+
+  const element = document.getElementById('logo')
+
+  element.addEventListener('click', function (e) {
+    e.preventDefault()
+    element.classList.remove('run-animation')
+    void element.offsetWidth
+    element.classList.add('run-animation')
+  }, false)
 }())
